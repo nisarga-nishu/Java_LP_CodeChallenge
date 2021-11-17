@@ -12,6 +12,8 @@ public class IncompleteTrip {
         CompletedTrip ct = new CompletedTrip();
         DateFormat df = new SimpleDateFormat("dd-mm-yyyy hh:mm:ss");
 
+        //CALCULATING THE HIGHER VALUE TO CHARGE FOR AN INCOMPLETE TRIP
+
         if(stopId.equals("Stop1")){
             ct.chargeAmount = ct.Stop3_1;
         }
