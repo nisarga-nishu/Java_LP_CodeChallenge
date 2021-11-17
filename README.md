@@ -4,7 +4,7 @@ Project Author: Nishu Nagaraj
 
 ## Description
 
-* This repository contains Maven Java project, The project aims to caluclate the amount for the trip made by passengers travelling through 3 different stops in a bus by recording the TAP ON and TAP OFF activity from their card card. .
+* This repository contains Maven Java project, The project aims to calculate the amount for the trip made by passengers travelling through 3 different stops in a bus by recording the TAP ON and TAP OFF activity from their credit card.
 * The project accepts the tapping history of a passenger in a CSV format.
 * The project outputs below fields in output CSV file:
     * The amount charged for **Complete trip**, **Incomplete trip** and **Cancelled trip**.
