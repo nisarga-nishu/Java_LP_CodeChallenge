@@ -95,7 +95,8 @@ public class CompletedTrip {
                             } 
                             // NO CHARGE FOR CANCELLATION OF TRIP
 
-                            else if(ct.stopId1.equals(ct.stopId2)){
+                            else if(ct.stopId1.equals(ct.stopId2) && ct.duration ==0.0){
+                                
                                 ct.chargeAmount = 0.0;
                                 ct.status = "CANCELLED";
                                 date1 = df.format(ct.date1);
