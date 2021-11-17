@@ -1,0 +1,2 @@
+"Started","Finished","DurationSecs","FromStopId","ToStopId","ChargeAmount","CompanyId","BusID","PAN","Status"
+"01-00-2018 01:00:00","01-00-2018 01:00:00","0","Stop1","Stop1","0.0","Company1","Bus28","5500005555555552","CANCELLED"
